@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+$font: "Poppins";
+$babyBlue: #97b5f8;
+$mediumBlue: #4f81f6;
+
+.landing-screen {
+  height: 100vh;
+  font-family: $font;
+  padding-right: 5vw;
+  padding-left: 5vw;
+}
+
+.about-us,
+.interested-section {
+  height: fit-content;
+  margin-left: 60px;
+  margin-right: 60px;
+  font-size: 18px;
+}
+
+.about-us-test,
+.about-us-test p,
+.about-us-test a {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+.interested-section p {
+  margin-bottom: 3vh;
+}
+
+.interested-section a {
+  margin-bottom: 3vh;
+}
+
+.interested {
+  background-color: $babyBlue;
+  padding-top: 5vh;
+  padding-bottom: 10vh;
+}
+
+.need-padding {
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+.test {
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+.blue-btn {
+  background-color: $mediumBlue;
+  color: white;
+  font-size: 25px;
+  width: 300px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.yellow-btn {
+  background-color: #ffeca4;
+  color: black;
+  font-size: 25px;
+  width: 300px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-color: transparent !important;
+}
+
+.yellow-btn:hover {
+  background-color: #f9c805;
+  color: black;
+}
+
+.description-screen {
+  background-color: $babyBlue;
+  min-height: 100vh;
+  padding-bottom: 3vh;
+  padding-top: 3vh;
+}
+
+.logo-img {
+  max-height: fit-content;
+  max-width: 60vw;
+}
+
+.test-pic {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  max-width: 90%;
+  border-radius: 15px;
+}
+
+.test-desc {
+  margin: 50px;
+}
+
+#f {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .description-screen-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .test-pic {
+    margin: 20px;
+    max-width: 70%;
+  }
+  .test-desc {
+    margin: 20px;
+    max-width: 70%;
+  }
+
+  .about-us {
+    gap: 10%;
+
+    p {
+      font-size: 20px;
+    }
+  }
+}

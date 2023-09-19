@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+.contact-section{
+    padding-top: 30px;
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
+
+.contact-header, .email-section h1{
+    font-size: 45px;
+    font-weight: 400; 
+}
+
+.icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#icon{
+    height: 100px;
+    width: 100px;
+    background-color: #4F81F6;
+    border: 10px solid #4F81F6;
+    border-left: 15px solid #4F81F6;
+    border-right: 15px solid #4F81F6;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.contact-btns{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.email-section{
+    padding-top: 5vh;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media  screen and (min-width: 768px) {
+    #icon{
+        height: 125px;
+        width: 125px;
+    }
+}

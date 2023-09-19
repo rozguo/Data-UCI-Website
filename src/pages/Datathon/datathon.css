@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+.datathon-page{
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: auto; 
+}
+
+.upcoming-datathon-section{
+    padding-top: 30px;
+    padding-bottom: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upcoming-datathon-section p, .upcoming-datathon-section a{
+    padding-bottom: 15px;
+}
+
+.prev-datathon-section{
+    padding-bottom: 40px;
+}
+
+.embark-imgs{
+    padding-bottom: 20px;
+}
+
+#fish-pic{
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+}
+
+
+@media  screen and (min-width: 768px) {
+    #fish-pic{
+        width: 45%
+    }
+
+    .embark-imgs{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .embark-desc{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+
