@@ -1,9 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 
+.contact-view{
+    background-color: #fff7ce;
+}
+
 .contact-section{
-    padding-top: 30px;
+    padding-top: 50px;
     padding-right: 5vw;
     padding-left: 5vw;
+    min-height: 100vh;
+}
+
+.contact-section h1{
+    padding-bottom: 40px !important;
 }
 
 .contact-header, .email-section h1{
@@ -35,18 +44,41 @@
 }
 
 .email-section{
-    padding-top: 5vh;
-    margin-bottom: 40px;
+    margin-top: 60px;
+    padding-bottom: 90px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.email-section h1{
+    font-size: 3rem;
+    padding-bottom: 1rem !important;
+}
+
+.email-section p, .email-section a{
+    padding-bottom: 30px;
+}
+
 
 @media  screen and (min-width: 768px) {
+    .contact-section h1{
+        padding-bottom: 75px !important;
+    }
+
     #icon{
         height: 125px;
         width: 125px;
+    }
+
+    .email-section{
+        margin-top: 90px;
+        padding-bottom: 130px;
+    }
+
+    .email-section h1{
+        font-size: 4rem;
+        padding-bottom: 1rem !important;
     }
 }

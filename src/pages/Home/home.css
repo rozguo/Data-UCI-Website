@@ -1,5 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
 .landing-screen {
-  background-color: color;
+  height: 100vh;
+  font-family: "Poppins";
+  padding-right: 5vw;
+  padding-left: 5vw;
 }
 
-/*# sourceMappingURL=home.css.map */
+.about-us,
+.interested-section {
+  height: fit-content;
+  font-size: 18px;
+}
+
+.about-us-test,
+.about-us-test p,
+.about-us-test a {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+.interested {
+  background-color: #97b5f8;
+}
+
+.interested-section p {
+  margin-bottom: 3vh;
+}
+
+.interested-section a {
+  margin-bottom: 3vh;
+}
+
+.test {
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+.blue-btn {
+  background-color: #4f81f6;
+  color: white;
+  font-size: 25px;
+  width: 300px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.yellow-btn {
+  background-color: #ffeca4;
+  color: black;
+  font-size: 25px;
+  width: 300px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-color: transparent !important;
+}
+
+.yellow-btn:hover {
+  background-color: #f9c805;
+  color: black;
+}
+
+.right-align,
+.left-align {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  font-weight: 400;
+}
+
+.desc-img-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.description-screen {
+  background-color: #97b5f8;
+  min-height: 100vh;
+  padding-bottom: 5rem;
+  padding-top: 4rem;
+}
+
+.description-screen-container {
+  margin-left: 30px;
+  margin-right: 30px;
+  overflow: hidden;
+}
+
+.logo-img {
+  max-height: fit-content;
+  max-width: 60vw;
+}
+
+.test-pic {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  max-width: 90%;
+  border-radius: 15px;
+}
+
+.test-desc {
+  margin: 50px;
+}
+
+#f {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.description-screen-row {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .description-screen {
+    padding-top: 3rem;
+  }
+
+  .description-screen-container {
+    margin: 0;
+  }
+
+  .description-screen-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .test-pic {
+    max-width: 90%;
+    margin: 0;
+  }
+
+  .test-desc {
+    margin: 20px;
+    max-width: 70%;
+  }
+
+  .about-us{
+    gap: 10%;
+  }
+  .about-us p{
+    font-size: 20px;
+
+  }
+
+  .right-align {
+    text-align: center;
+    align-items: center;
+  }
+
+  #left-btn {
+    padding-left: 0px;
+  }
+
+  #right-btm {
+    padding-right: 0px;
+  }
+
+  .desc-img-container,
+  .desc-img-container2 {
+    justify-content: center;
+    padding-top: 3rem;
+  }
+}

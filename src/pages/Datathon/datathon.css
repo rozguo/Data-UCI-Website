@@ -1,15 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 
-.datathon-page{
-    text-align: center;
+.datathon-view{
+    background-color: #FFECA4;
+}
+
+.datathon-header{
+    padding-top: 50px;
     padding-right: 20px;
     padding-left: 20px;
-    margin: auto; 
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container{
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .upcoming-datathon-section{
-    padding-top: 30px;
-    padding-bottom: 8vh;
+    padding-bottom: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -21,33 +33,59 @@
 }
 
 .prev-datathon-section{
-    padding-bottom: 40px;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #a1bfff;
+    
+}
+
+.prev-datathon-section h1{
+    padding-bottom: 15px;
+    font-size: 3.5rem;
 }
 
 .embark-imgs{
-    padding-bottom: 20px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-#fish-pic{
-    width: 100%;
+.embark-desc{
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#datathon-pic{
+    width: 80%;
     border-radius: 10px 10px 10px 10px;
     margin-bottom: 20px;
 }
 
 
 @media  screen and (min-width: 768px) {
-    #fish-pic{
-        width: 45%
+    #datathon-pic{
+        width: 35%
     }
 
     .embark-imgs{
         display: flex;
+        flex-direction: row;
         justify-content: space-evenly;
     }
 
     .embark-desc{
         margin-left: 30px;
         margin-right: 30px;
+    }
+
+    .prev-datathon-section h1{
+        padding-bottom: 15px;
+        font-size: 4rem;
     }
 }
 

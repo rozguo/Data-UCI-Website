@@ -1,0 +1,118 @@
+
+.upcoming-events{
+    margin-top: 50px;
+}
+
+.upcoming-event-card{
+    background-color: #4F81F6;
+    color: white !important;
+    border-radius: 10px 10px 10px 10px;
+    margin: 35px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.upcoming-event-pic{
+    max-width: 80%;
+    height: fit-content;
+    padding-bottom: 2rem;
+}
+
+#event-styler{
+    border-radius: 10px 10px 10px 10px ;
+    border: 1px solid darkblue;
+    width: 100%;
+    height: auto;
+}
+
+.prev-events-card{
+    background-color: #FFECA4;
+    color: white !important;
+    border-radius: 10px 10px 10px 10px;
+    margin: 35px;
+    margin-bottom: 5rem;
+    padding: 25px;
+}
+
+.event-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    row-gap: 3rem;
+    column-gap: 12px;
+}
+
+#event-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+#prev-event-pic{
+    max-width: 150px;
+    border-radius: 10px 10px 10px 10px ;
+    border: 1px solid darkblue;
+}
+
+@media  screen and (max-width: 431px) {
+    .event-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    }
+    #prev-event-pic{
+        max-width: 225px;
+    }
+}
+
+@media  screen and (min-width: 768px) {
+    .upcoming-events{
+        margin-top: 75px;
+    }
+
+    .upcoming-event-card p{
+        width: 50%;
+    }
+
+    .upcoming-event-pic{
+        width: 40%;
+        padding-bottom: 0rem;
+    }
+
+    .upcoming-event-pic img{
+        width: 400px;
+        height: 400px;
+    }
+    
+    .upcoming-event-card{
+        margin-left: 10vw;
+        margin-right: 10vw;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 45px;
+    }
+
+    .prev-events-card{
+        margin-left: 10vw;
+        margin-right: 10vw;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 45px;
+    }
+
+    .event-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        row-gap: 3rem;
+        column-gap: 12px;
+    }
+
+    #prev-event-pic{
+        max-width: 250px;
+    }
+    
+
+    
+}
