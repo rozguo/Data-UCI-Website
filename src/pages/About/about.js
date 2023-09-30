@@ -41,7 +41,7 @@ const About = () => {
             fontFamily: "arial",
           }}
         >
-          A Special Thank You To
+          A Special Thanks To Our Sponser
         </h1>
         <div>
           <div className="mds-logo-container" id="mds">
