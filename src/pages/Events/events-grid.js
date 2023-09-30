@@ -14,6 +14,13 @@ const PrevEvents = () => {
       <div class="event-grid">
         <div id="event-card">
           <img
+            src={prevEvent3}
+            alt="End of year party announcement"
+            id="prev-event-pic"
+          />
+        </div>
+        <div id="event-card">
+          <img
             src={prevEvent1}
             alt="End of year party announcement"
             id="prev-event-pic"
@@ -23,13 +30,6 @@ const PrevEvents = () => {
           <img
             src={prevEvent2}
             alt="Intro to data engineering announcement"
-            id="prev-event-pic"
-          />
-        </div>
-        <div id="event-card">
-          <img
-            src={prevEvent3}
-            alt="End of year party announcement"
             id="prev-event-pic"
           />
         </div>
