@@ -5,14 +5,12 @@ import About from "./pages/About/about";
 import Datathon from "./pages/Datathon/datathon.js";
 import Events from "./pages/Events/events.js";
 import Contact from "./pages/Contact/contact";
-import AppBanner from "./app-announcement/application-announcement";
 
 import "./App.css";
 
 function App() {
   return (
     <>
-      <AppBanner />
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />

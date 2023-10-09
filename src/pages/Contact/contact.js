@@ -48,7 +48,7 @@ const Contact = () => {
                 </a>
               </div>
               <div className="col-md-3 icon-container">
-                <a>
+                <a href="https://www.tiktok.com/@dataatuci?_t=8gM0AxlLTgY&_r=1">
                   <FontAwesomeIcon
                     icon={faTiktok}
                     style={{ color: "white" }}

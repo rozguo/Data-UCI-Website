@@ -2,6 +2,7 @@ const PrevEvents = () => {
   const prevEvent1 = require("../../components/potluck.jpg");
   const prevEvent2 = require("../../components/intro-data-eng.png");
   const prevEvent3 = require("../../components/AIF.jpg");
+  const prevEvent4 = require("../../components/intro-night.png");
   return (
     <div
       style={{
@@ -14,7 +15,17 @@ const PrevEvents = () => {
       <div class="event-grid">
         <div id="event-card">
           <img
-            src={prevEvent3}
+            src={prevEvent4}
+            alt="Intro to Data @ UCI announcement"
+            id="prev-event-pic"
+          />
+        </div>
+        <div id="event-card">
+          <img src={prevEvent3} alt="AIF announcement" id="prev-event-pic" />
+        </div>
+        <div id="event-card">
+          <img
+            src={prevEvent2}
             alt="End of year party announcement"
             id="prev-event-pic"
           />
@@ -22,13 +33,6 @@ const PrevEvents = () => {
         <div id="event-card">
           <img
             src={prevEvent1}
-            alt="End of year party announcement"
-            id="prev-event-pic"
-          />
-        </div>
-        <div id="event-card">
-          <img
-            src={prevEvent2}
             alt="Intro to data engineering announcement"
             id="prev-event-pic"
           />

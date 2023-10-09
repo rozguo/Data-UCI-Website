@@ -4,7 +4,7 @@ import NavBar from "../../components/NavBar/NavBar";
 import Footer from "../../components/Footer/Footer";
 import PrevEvents from "./events-grid";
 const Events = () => {
-  const currentEvent = require("../../components/intro-night.png");
+  const currentEvent = require("../../components/netflix-talk.jpg");
   return (
     <div className="events-view">
       <NavBar />
@@ -19,25 +19,15 @@ const Events = () => {
             />
           </div>
           <p>
-            Ready to dive in the world of data?Join us for our Intro Night at
-            Data @ UCI! Come meet the faces behind Data @ UCI as we unveil our
-            plans for the upcoming quarter and engage in some Kahoot fun!
+            Join Data @ UCI as we dive into the world of data analysis with Anuj
+            Desai, a Netflix data wizard. Let's explore career insights and
+            decode the secrets behind streaming success! See you soon!
             <br />
-            <b>
-              Don't forget to RSVP{" "}
-              <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLScQ8id_lOV2rV5YAPHgHrEFKMAqW3Xge1jP-cZzT-ISQg9boA/viewform"
-                style={{ color: "white" }}
-              >
-                here
-              </a>
-              !
-            </b>
             <br />
-            <br /> Date: <b>Wednesday, October 4th!</b> <br />
+            <br /> Date: <b>Wednesday, October 11th!</b> <br />
             Time: <b>6PM - 7PM </b>
             <br />
-            Location: <b>PSLH 100 </b>
+            Location: <b>TBA </b>
             <br />
             <br />
           </p>
