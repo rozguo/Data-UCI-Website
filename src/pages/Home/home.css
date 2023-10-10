@@ -105,6 +105,8 @@
 
 .test-desc {
   margin: 50px;
+  margin-bottom: 23px;
+  font-weight: 500;
 }
 
 #f {
@@ -116,6 +118,7 @@
 .description-screen-row {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 @media screen and (max-width: 768px) {

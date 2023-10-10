@@ -27,7 +27,7 @@ const Events = () => {
             <br /> Date: <b>Wednesday, October 11th!</b> <br />
             Time: <b>6PM - 7PM </b>
             <br />
-            Location: <b>TBA </b>
+            Location: <b>PSLH 100</b>
             <br />
             <br />
           </p>
