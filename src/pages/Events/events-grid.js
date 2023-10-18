@@ -3,6 +3,7 @@ const PrevEvents = () => {
   const prevEvent2 = require("../../components/intro-data-eng.png");
   const prevEvent3 = require("../../components/AIF.jpg");
   const prevEvent4 = require("../../components/intro-night.png");
+  const prevEvent5 = require("../../components/netflix-talk.jpg");
   return (
     <div
       style={{
@@ -13,6 +14,13 @@ const PrevEvents = () => {
       }}
     >
       <div class="event-grid">
+        <div id="event-card">
+          <img
+            src={prevEvent5}
+            alt="Netflix Data @ UCI announcement"
+            id="prev-event-pic"
+          />
+        </div>
         <div id="event-card">
           <img
             src={prevEvent4}

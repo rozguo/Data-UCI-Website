@@ -4,7 +4,7 @@ import NavBar from "../../components/NavBar/NavBar";
 import Footer from "../../components/Footer/Footer";
 import PrevEvents from "./events-grid";
 const Events = () => {
-  const currentEvent = require("../../components/netflix-talk.jpg");
+  const currentEvent = require("../../components/intro-to-tech.jpeg");
   return (
     <div className="events-view">
       <NavBar />
@@ -19,15 +19,19 @@ const Events = () => {
             />
           </div>
           <p>
-            Join Data @ UCI as we dive into the world of data analysis with Anuj
-            Desai, a Netflix data wizard. Let's explore career insights and
-            decode the secrets behind streaming success! See you soon!
+            Join us Data @UCI in learning how to land an internship or post grad
+            role, and become more confident in applying yourself in the
+            industry!
             <br />
             <br />
-            <br /> Date: <b>Wednesday, October 11th!</b> <br />
+            <br /> Date: <b>Wednesday, October 18th!</b> <br />
             Time: <b>6PM - 7PM </b>
             <br />
-            Location: <b>PSLH 100</b>
+            Location:{" "}
+            <b>
+              <a href="https://uci.zoom.us/j/98612025293#success">Zoom Link</a>
+            </b>{" "}
+            / PSLH 100
             <br />
             <br />
           </p>
