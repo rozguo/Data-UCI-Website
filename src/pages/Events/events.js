@@ -4,7 +4,7 @@ import NavBar from "../../components/NavBar/NavBar";
 import Footer from "../../components/Footer/Footer";
 import PrevEvents from "./events-grid";
 const Events = () => {
-  const currentEvent = require("../../components/intro-to-tech.jpeg");
+  const currentEvent = require("../../components/transportation.jpg");
   return (
     <div className="events-view">
       <NavBar />
@@ -14,24 +14,22 @@ const Events = () => {
           <div className="upcoming-event-pic">
             <img
               src={currentEvent}
-              alt="Intro Night announcement"
+              alt="Transportation with Kyler Chin announcement"
               id="event-styler"
             />
           </div>
           <p>
-            Join us Data @UCI in learning how to land an internship or post grad
-            role, and become more confident in applying yourself in the
-            industry!
+            Join us for Kyler Chin's Public Transport Python and Data Workshop!
+            Get ready to dive into the world of data analysis and Python
+            programming, specifically tailored for public transport enthusiasts.
+            Whether you're a beginner or an experienced coder, this workshop has
+            something for everyone.
             <br />
             <br />
-            <br /> Date: <b>Wednesday, October 18th!</b> <br />
-            Time: <b>6PM - 7PM </b>
+            <br /> Date: <b>Wednesday, November 1st!</b> <br />
+            Time: <b>6:30PM - 7:30PM </b>
             <br />
-            Location:{" "}
-            <b>
-              <a href="https://uci.zoom.us/j/98612025293#success">Zoom Link</a>
-            </b>{" "}
-            / PSLH 100
+            Location: <b>PSCB 140</b>
             <br />
             <br />
           </p>

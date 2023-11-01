@@ -23,7 +23,7 @@ const Board = () => {
       }}
     >
       <div className="logistics">
-        <h2 id="board-h2">Logistics</h2>
+        <h2 id="board-h2">Executive</h2>
         <div class="image-grid">
           <div id="member-card">
             <img src={jenny} alt="Jenny Tran" id="board-headshot" />
