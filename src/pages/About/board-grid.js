@@ -13,6 +13,9 @@ const Board = () => {
   const will = require("../../components/board-photos/william-hou.png");
   const gordon = require("../../components/board-photos/gordon-lin.png");
   const rosalind = require("../../components/board-photos/rosalind-guo.jpg");
+  const elane = require("../../components/board-photos/elane-elza-shane.jpg");
+  const megan = require("../../components/board-photos/megan-le.jpg");
+  const catelynn = require("../../components/board-photos/catelynn-chen.jpg");
   return (
     <div
       style={{
@@ -43,6 +46,11 @@ const Board = () => {
           <div id="member-card">
             <img src={gordon} alt="Gordon Lin" id="board-headshot" />
             <h4>Gordon Lin</h4>
+            <p>VP of Finance</p>
+          </div>
+          <div id="member-card">
+            <img src={catelynn} alt="Catelynn Chen" id="board-headshot" />
+            <h4>Catelynn Chen</h4>
             <p>VP of Finance</p>
           </div>
           <div id="member-card">
@@ -106,6 +114,16 @@ const Board = () => {
             <img src={rosalind} alt="Rosalind Guo" id="board-headshot" />
             <h4>Rosalind Guo</h4>
             <p>Website Master</p>
+          </div>
+          <div id="member-card">
+            <img src={elane} alt="Elane Elza Shane" id="board-headshot" />
+            <h4>Elane Elza Shane</h4>
+            <p>VP of Marketing, Graphic Designer</p>
+          </div>
+          <div id="member-card">
+            <img src={megan} alt="Megan Le" id="board-headshot" />
+            <h4>Megan Le</h4>
+            <p>VP of Marketing, Graphic Designer</p>
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@ import NavBar from "../../components/NavBar/NavBar";
 import Footer from "../../components/Footer/Footer";
 import PrevEvents from "./events-grid";
 const Events = () => {
-  const currentEvent = require("../../components/transportation.jpg");
+  const currentEvent = require("../../components/intro-to-data-science.jpg");
   return (
     <div className="events-view">
       <NavBar />
@@ -19,14 +19,18 @@ const Events = () => {
             />
           </div>
           <p>
-            Join us for Kyler Chin's Public Transport Python and Data Workshop!
-            Get ready to dive into the world of data analysis and Python
-            programming, specifically tailored for public transport enthusiasts.
-            Whether you're a beginner or an experienced coder, this workshop has
-            something for everyone.
+            Join us this Wednesday for our Intro to Data Science workshop! We
+            will guide you through a data set as we use Pandas, Seaborn, and
+            Sci-kit Learn!
             <br />
             <br />
-            <br /> Date: <b>Wednesday, November 1st!</b> <br />
+            <a href=" https://www.kaggle.com/code/celestialsquid/data-uci-titanic-workshop-template">
+              Link to Kaggle template. Please make a Kaggle account and copy
+              template before event starts.
+            </a>
+            <br />
+            <br />
+            <br /> Date: <b>Wednesday, November 15th!</b> <br />
             Time: <b>6:30PM - 7:30PM </b>
             <br />
             Location: <b>PSCB 140</b>
