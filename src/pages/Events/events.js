@@ -4,7 +4,7 @@ import NavBar from "../../components/NavBar/NavBar";
 import Footer from "../../components/Footer/Footer";
 import PrevEvents from "./events-grid";
 const Events = () => {
-  const currentEvent = require("../../components/intro-to-data-science.jpg");
+  const currentEvent = require("../../components/wicsXdataFIN2.png");
   return (
     <div className="events-view">
       <NavBar />
@@ -19,21 +19,20 @@ const Events = () => {
             />
           </div>
           <p>
-            Join us this Wednesday for our Intro to Data Science workshop! We
-            will guide you through a data set as we use Pandas, Seaborn, and
-            Sci-kit Learn!
+            Curious about the dynamic world of female leadership in the AI/ML
+            field? Join WICS and Data @ UCI for an enlightening panel discussion
+            where our accomplished female speakers will showcase their
+            groundbreaking projects and offer invaluable insights. <br />
+            <br />
+            Don't miss this opportunity to gain a deeper understanding of the
+            ever-evolving AI/ML landscape from some of the brightest minds in
+            the industry.
             <br />
             <br />
-            <a href=" https://www.kaggle.com/code/celestialsquid/data-uci-titanic-workshop-template">
-              Link to Kaggle template. Please make a Kaggle account and copy
-              template before event starts.
-            </a>
-            <br />
-            <br />
-            <br /> Date: <b>Wednesday, November 15th!</b> <br />
+            <br /> Date: <b>Monday, November 20th</b> <br />
             Time: <b>6:30PM - 7:30PM </b>
             <br />
-            Location: <b>PSCB 140</b>
+            Location: <b>DBH 6011</b>
             <br />
             <br />
           </p>
