@@ -4,7 +4,7 @@ import NavBar from "../../components/NavBar/NavBar";
 import Footer from "../../components/Footer/Footer";
 import PrevEvents from "./events-grid";
 const Events = () => {
-  const currentEvent = require("../../components/wicsXdataFIN2.png");
+  const currentEvent = require("../../components/dataUMC-potluck.png");
   return (
     <div className="events-view">
       <NavBar />
@@ -19,21 +19,23 @@ const Events = () => {
             />
           </div>
           <p>
-            Curious about the dynamic world of female leadership in the AI/ML
-            field? Join WICS and Data @ UCI for an enlightening panel discussion
-            where our accomplished female speakers will showcase their
-            groundbreaking projects and offer invaluable insights. <br />
-            <br />
-            Don't miss this opportunity to gain a deeper understanding of the
-            ever-evolving AI/ML landscape from some of the brightest minds in
-            the industry.
+            Join us for an evening of collaboration and camaraderie as the data
+            enthusiasts from UCI and UMC come together for a Potluck Collab!
             <br />
             <br />
-            <br /> Date: <b>Monday, November 20th</b> <br />
+            Don't miss out on this delightful fusion of data and dining – mark
+            your calendar and join us for a memorable evening! Please let us
+            know what your bringing through the{" "}
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScE193ORRDp0cVa9tOZ1_nkCVcdxpfYnKnD1qtb8FgB1KNWMQ/viewform">
+              {" "}
+              RSVP link
+            </a>
+            !
+            <br />
+            <br /> Date: <b>Wednesday, November 29th</b> <br />
             Time: <b>6:30PM - 7:30PM </b>
             <br />
-            Location: <b>DBH 6011</b>
-            <br />
+            Location: <b>PCSB 140</b>
             <br />
           </p>
         </div>
