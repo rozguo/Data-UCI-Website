@@ -9,6 +9,7 @@ const PrevEvents = () => {
   const prevEvent8 = require("../../components/transportation.jpg");
   const prevEvent9 = require("../../components/intro-to-data-science.jpg");
   const prevEvent10 = require("../../components/wicsXdataFIN2.png");
+  const prevEvent11 = require("../../components/potluck.jpg");
   return (
     <div
       style={{

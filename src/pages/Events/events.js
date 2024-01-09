@@ -4,7 +4,7 @@ import NavBar from "../../components/NavBar/NavBar";
 import Footer from "../../components/Footer/Footer";
 import PrevEvents from "./events-grid";
 const Events = () => {
-  const currentEvent = require("../../components/dataUMC-potluck.png");
+  const currentEvent = require("../../components/w24-week1.png");
   return (
     <div className="events-view">
       <NavBar />
@@ -19,21 +19,12 @@ const Events = () => {
             />
           </div>
           <p>
-            Join us for an evening of collaboration and camaraderie as the data
-            enthusiasts from UCI and UMC come together for a Potluck Collab!
+            Come discover what's in store for Winter quarter with us! Learn more
+            about the club, our exciting plans for the upcoming months, and meet
+            the amazing team behind it all. See you there!
             <br />
-            <br />
-            Don't miss out on this delightful fusion of data and dining – mark
-            your calendar and join us for a memorable evening! Please let us
-            know what your bringing through the{" "}
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLScE193ORRDp0cVa9tOZ1_nkCVcdxpfYnKnD1qtb8FgB1KNWMQ/viewform">
-              {" "}
-              RSVP link
-            </a>
-            !
-            <br />
-            <br /> Date: <b>Wednesday, November 29th</b> <br />
-            Time: <b>6:30PM - 7:30PM </b>
+            <br /> Date: <b>Tuesday, January 9th</b> <br />
+            Time: <b>6:00PM - 7:00PM </b>
             <br />
             Location: <b>PCSB 140</b>
             <br />
