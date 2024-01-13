@@ -4,7 +4,7 @@ import NavBar from "../../components/NavBar/NavBar";
 import Footer from "../../components/Footer/Footer";
 import PrevEvents from "./events-grid";
 const Events = () => {
-  const currentEvent = require("../../components/w24-week1.png");
+  const currentEvent = require("../../components/winter_workshop_announcement.png");
   return (
     <div className="events-view">
       <NavBar />
@@ -19,11 +19,12 @@ const Events = () => {
             />
           </div>
           <p>
-            Come discover what's in store for Winter quarter with us! Learn more
-            about the club, our exciting plans for the upcoming months, and meet
-            the amazing team behind it all. See you there!
+            Want to see data science in action? Add another project to your
+            resume? Learn in-demand skills for industry? Gotten angry because a
+            food delivery was late? If you answered yes to any of these
+            questions, tune in for Data@UCI’s first ever workshop series!
             <br />
-            <br /> Date: <b>Tuesday, January 9th</b> <br />
+            <br /> Date: <b>Week 2, 4, 6, 8</b> <br />
             Time: <b>6:00PM - 7:00PM </b>
             <br />
             Location: <b>PCSB 140</b>
