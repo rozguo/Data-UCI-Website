@@ -10,6 +10,7 @@ const PrevEvents = () => {
   const prevEvent9 = require("../../components/intro-to-data-science.jpg");
   const prevEvent10 = require("../../components/wicsXdataFIN2.png");
   const prevEvent11 = require("../../components/w24-week1.png");
+  const prevEvent12 = require("../../components/winter_workshop_announcement.png");
   return (
     <div
       style={{
@@ -20,6 +21,13 @@ const PrevEvents = () => {
       }}
     >
       <div class="event-grid">
+        <div id="event-card">
+          <img
+            src={prevEvent12}
+            alt="Data Winter Workshop Series announcement"
+            id="prev-event-pic"
+          />
+        </div>
         <div id="event-card">
           <img
             src={prevEvent11}

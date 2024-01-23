@@ -4,7 +4,7 @@ import NavBar from "../../components/NavBar/NavBar";
 import Footer from "../../components/Footer/Footer";
 import PrevEvents from "./events-grid";
 const Events = () => {
-  const currentEvent = require("../../components/winter_workshop_announcement.png");
+  const currentEvent = require("../../components/data-finance.png");
   return (
     <div className="events-view">
       <NavBar />
@@ -14,17 +14,17 @@ const Events = () => {
           <div className="upcoming-event-pic">
             <img
               src={currentEvent}
-              alt="Transportation with Kyler Chin announcement"
+              alt="Data in Finance Announcement"
               id="event-styler"
             />
           </div>
           <p>
-            Want to see data science in action? Add another project to your
-            resume? Learn in-demand skills for industry? Gotten angry because a
-            food delivery was late? If you answered yes to any of these
-            questions, tune in for Data@UCI’s first ever workshop series!
+            Join us for an evening with data analysts Kienna Qin and Charlie
+            Wang, as we delve into the dynamic world of data in finance.
+            Discover how data science shapes financial strategies and
+            decision-making. See you there!🤑
             <br />
-            <br /> Date: <b>Week 2, 4, 6, 8</b> <br />
+            <br /> Date: <b>Tuesday, Jan 23rd</b> <br />
             Time: <b>6:00PM - 7:00PM </b>
             <br />
             Location: <b>PCSB 140</b>
