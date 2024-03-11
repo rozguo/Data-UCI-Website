@@ -13,7 +13,7 @@ const Datathon = () => {
       <NavBar />
 
       <div className="datathon-header">
-        <h1>Datathon 2024</h1>
+        <h1>Atlantis 2024</h1>
         <p style={{ marginBottom: "5vh" }}>
           <b>What is a datathon?</b>
           <br />
@@ -26,17 +26,20 @@ const Datathon = () => {
 
       <div className="container datathon-page" style={{ marginTop: "55px" }}>
         <div className="upcoming-datathon-section">
-          <h2>Upcoming Datathon</h2>
+          <h2>Apply Now</h2>
           <p>
-            Data@UCI’s upcoming datathon for 2024 will be announced soon. <br />
+            Passionate about data and eager to share your expertise? Become a
+            mentor for Data @ UCI’s Datathon! Join us in guiding the next
+            generation of data enthusiasts. Apply on the Atlantis website!{" "}
+            <br />
             Follow us on our Instagram and subscribe to our newsletter to stay
             updated!
           </p>
           <a
-            href="https://forms.gle/MjJQvXrmMaLW8d638"
+            href="https://datathon.dataatuci.com/"
             className="btn btn-primary blue-btn"
           >
-            Newsletter Sign-up
+            Application Link
           </a>
           <br />
           <a href="/contact" className="btn btn-primary blue-btn">
